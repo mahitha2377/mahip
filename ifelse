@@ -1,0 +1,9 @@
+#!/bin/bash
+if true ; then
+echo " true statements "
+mkdir sample
+cd sample
+touch first.sh second.sh third.sh
+else
+echo " false statements "
+fi
